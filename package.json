@@ -1,0 +1,27 @@
+{
+  "name": "gitproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul97311/GitProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahul97311/GitProject/issues"
+  },
+  "homepage": "https://github.com/Rahul97311/GitProject#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

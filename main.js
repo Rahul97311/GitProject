@@ -1,10 +1,5 @@
 // main.js
-function greet(name) {
-  if (!name) {
-    console.log("Name is required!");
-    return;
-  }
-  console.log(`Hello, ${name}!`);
+function add(a, b) {
+  return a + b;
 }
-
-greet("Rahul");
+module.exports = { add };  // Required for Jest to import
